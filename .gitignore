@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- Entornos virtuales ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+.virtual_documents/
+
+# --- Editores / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Nota: 'datos/' y 'resultados/' SI se versionan a proposito.
+# El dataset es publico y los graficos se muestran en el README.
